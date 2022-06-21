@@ -1,0 +1,98 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>bee 3271 - Jogo de Dados</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="beecrowd; www.beecrowd.com.br" />
+<meta name="description" content="beecrowd - Problema 3271 - Jogo de Dados" />
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="https://resources.beecrowd.com.br/repository/contest.css" />
+</head>
+<body>
+<div class="header">
+<span>beecrowd | 3271</span>
+<h1>Jogo de Dados</h1>
+<div>
+<p>Por Lukáš Poláček <img src='https://resources.beecrowd.com.br/gallery/images/flags/se.gif' alt='SE' /> Sweden</p>
+</div>
+<strong>Timelimit: 1</strong>
+</div>
+<div class="problem">
+<div class="description">
+<p>Gunnar e Emma jogam muitos jogos de tabuleiro em casa, então eles possuem muitos dados que não são dados normais de 6 lados. Por exemplo, eles possuem um dado que tem 10 lados com números 47, 48,. . . , 56 nele.</p>
+<p>Houve uma grande tempestade em Estocolmo, então Gunnar e Emma ficaram presos em casa sem eletricidade por algumas horas. Eles terminaram de jogar todos os jogos que tinham, então criaram um novo. Cada jogador tem 2 dados que rola. O jogador com uma soma maior vence. Se as duas somas forem iguais, o jogo termina empatado.</p>
+</div>
+<h2>Tarefa</h2>
+<div class="task">
+<p>Dada a descrição dos dados de Gunnar e Emma, ​​qual jogador tem maiores chances de ganhar?</p>
+<p>Todos os seus dados têm a seguinte propriedade: cada dado contém os números <strong>a</strong>, <strong>a</strong> + 1,. . . , <strong>b</strong>, onde aeb são os números mais baixo e mais alto, respectivamente, no dado. Cada número aparece exatamente em um lado, então o dado tem <strong>b</strong> - <strong>a</strong> + 1 lados.</p>
+</div>
+<h2>Entrada</h2>
+<div class="input">
+<p>A primeira linha contém quatro inteiros <strong>a<sub>1</sub></strong>, <strong>b<sub>1</sub></strong>, <strong>a<sub>2</sub></strong>, <strong>b<sub>2</sub></strong> que descrevem os dados de Gunnar. O dado número <strong>i</strong> contém os números <strong>a<sub>i</sub></strong>, <strong>a<sub>i</sub></strong> + 1,. . . , <strong>b<sub>i</sub></strong> em seus lados. Você pode assumir que 1 ≤ <strong>a<sub>i</sub></strong> ≤ <strong>b<sub>i</sub></strong> ≤ 100. Você também pode assumir que cada dado tem pelo menos quatro lados, então <strong>a<sub>i</sub></strong> + 3 ≤ <strong>b<sub>i</sub></strong>.</p>
+</div>
+<h2>Saída</h2>
+<div class="output">
+<p>Produza o nome do jogador com maior probabilidade de ganhar. Emita “Tie” se ambos os jogadores tiverem a mesma probabilidade de ganhar.</p>
+</div>
+<div class="both"></div>
+<table>
+<thead>
+<tr>
+<td>Exemplos de Entrada</td>
+<td>Exemplos de Saída</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="division">
+<p>1 4 1 4<br />
+1 6 1 6</p>
+</td>
+<td>
+<p>Emma</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="both"></div>
+<table>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="division">
+<p>1 8 1 8<br />
+1 10 2 5</p>
+</td>
+<td>
+<p>Tie</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="both"></div>
+<table>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td class="division">
+<p>2 5 2 7<br />
+1 5 2 5</p>
+</td>
+<td>
+<p>Gunnar</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="footer">
+NCPC - Nordic Collegiate Programming Contest 2014
+</p>
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"71e8e9327a33a4de","token":"43f41e4aa277420bad9940f8d8a80572","version":"2022.6.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
